@@ -1,14 +1,25 @@
-let a = 1;
-let b = 2;
-let c = 3;
+// let a = 1;
+// let b = 2;
+// let c = 3;
 
-console.log(a);
-console.log(b);
-console.log(c);
-a = c;
-console.log(a);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// a = c;
+// console.log(a);
 
-//console.log('Hello World... Just a test')
+// //console.log('Hello World... Just a test')
 
 
+// function myName() {
+//     console.log("Moh Kam");
+// }
+// myName();
 
+
+//function that returns the person name 
+function nameHi(name) {
+    return "Hello " + name;
+}
+let n = nameHi("momo");
+console.log(n);
