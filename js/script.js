@@ -56,30 +56,48 @@
 
 
 
-// Create a new function that takes 2 parameters.
-// 1. name,
-// 2. callback, that prints out what we pass to it...
-// take the name and append "hello" to the beginning of name
-function printVar(x) {
-    console.log(x);
-}
-
-function printName(name, callback) {
-    callback("Hello " + name);
-}
-printName("Meow", printVar);
-
-// ******* This was my soln...
-// function printVar(name, callback) {
-//     let x = callback(name);
+// // Create a new function that takes 2 parameters.
+// // 1. name,
+// // 2. callback, that prints out what we pass to it...
+// // take the name and append "hello" to the beginning of name
+// function printVar(x) {
 //     console.log(x);
 // }
 
-// function myCallback(myName) {
-//     return "Hello " + myName;
+// function printName(name, callback) {
+//     callback("Hello " + name);
 // }
 
-// printVar("Mooo", myCallback);
+// function printName(name) {
+//     console.log(name);
+// }
+
+// printName("Meow", printVar);
+
+// // ******* This was my soln...
+// // function printVar(name, callback) {
+// //     let x = callback(name);
+// //     console.log(x);
+// // }
+
+// // function myCallback(myName) {
+// //     return "Hello " + myName;
+// // }
+
+// // printVar("Mooo", myCallback);
+
+
+
+// Anonymous functions
+function printName(name, callback) {
+    callback("Hello " + name);
+}
+
+printName("Momo", function (v) {
+    console.log(v);
+});
+
+
 
 
 
