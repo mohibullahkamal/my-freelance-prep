@@ -88,14 +88,15 @@
 
 
 
-// Anonymous functions
-function printName(name, callback) {
-    callback("Hello " + name);
-}
+// // Anonymous functions
+// function printName(name, callback) {
+//     callback("Hello " + name);
+// }
 
-printName("Momo", function (v) {
-    console.log(v);
-});
+// printName("Momo", function (v) {
+//     console.log(v);
+// });
+
 
 
 
