@@ -99,13 +99,27 @@
 
 
 
-//Arrow function
-function printHi(name) {
-    return "Hi" + name;
-}
+// //Arrow function
+// function printHi(name) {
+//     return "Hi" + name;
+// }
 
-let arrowPrintHi = name => "Hi " + name;
-console.log(arrowPrintHi("mooo"));
+// let arrowPrintHi = name => "Hi " + name;
+// console.log(arrowPrintHi("mooo"));
+
+
+
+// //arrow functions; () returns the value of the function
+// let no1 = () => 1;
+// let no2 = () => 2;
+// let no3 = () => 3;
+
+// let sum = no1() + no2() + no3();
+// console.log(sum);
+
+
+
+
 
 
 
