@@ -99,6 +99,16 @@
 
 
 
+//Arrow function
+function printHi(name) {
+    return "Hi" + name;
+}
+
+let arrowPrintHi = name => "Hi " + name;
+console.log(arrowPrintHi("mooo"));
+
+
+
 
 
 
