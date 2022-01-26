@@ -147,6 +147,22 @@ doStuff(1, 2, "Kyle");
 // a variable... with the "let" keyword... variables never 
 // get Hoisted...
 
+// Normal functions get Hoisted
+function sum(a, b) {
+    return a + b;
+}
+// Arrow functions donot get hoisted because it is defined 
+// as variables...
+let sumArrow = (a, b) => {
+    return a + b;
+}
+// just like Arrow functions, the variables are defined... 
+// is not Hoisted...
+let a = 1;
+
+
+
+//
 
 
 
