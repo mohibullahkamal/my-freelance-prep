@@ -133,11 +133,19 @@ function sum(a, b) {
 function sayHi(name) {
     return "Hi " + name;
 }
-
 doStuff(1, 2, "Kyle");
 
-//can also write like this
-function doDoStuff(() =>, () =>);
+// //can also write like this
+// function doDoStuff(() =>, () =>);
+
+
+
+// Hoisting -> it basically takes all functions and
+// pretends to place it at top of the file... so we can
+// use them anywhere... But Hoisting does not work on Arrow
+// functions... the reason is Arrow function are defined as 
+// a variable... with the "let" keyword... variables never 
+// get Hoisted...
 
 
 
