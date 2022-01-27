@@ -133,36 +133,39 @@ function sum(a, b) {
 function sayHi(name) {
     return "Hi " + name;
 }
-doStuff(1, 2, "Kyle");
+cdskjfsdnfjfnkjanvfd
+let result = "Kyle";
+doStuff(1, 2, result);
 
 // //can also write like this
 // function doDoStuff(() =>, () =>);
 
 
 
-// Hoisting -> it basically takes all functions and
-// pretends to place it at top of the file... so we can
-// use them anywhere... But Hoisting does not work on Arrow
-// functions... the reason is Arrow function are defined as 
-// a variable... with the "let" keyword... variables never 
-// get Hoisted...
+// // Hoisting -> it basically takes all functions and
+// // pretends to place it at top of the file... so we can
+// // use them anywhere... But Hoisting does not work on Arrow
+// // functions... the reason is Arrow function are defined as 
+// // a variable... with the "let" keyword... variables never 
+// // get Hoisted...
 
-// Normal functions get Hoisted
-function sum(a, b) {
-    return a + b;
-}
-// Arrow functions donot get hoisted because it is defined 
-// as variables...
-let sumArrow = (a, b) => {
-    return a + b;
-}
-// just like Arrow functions, the variables are defined... 
-// is not Hoisted...
-let a = 1;
+// // Normal functions get Hoisted
+// function sum(a, b) {
+//     return a + b;
+// }
+// // Arrow functions donot get hoisted because it is defined 
+// // as variables...
+// let sumArrow = (a, b) => {
+//     return a + b;
+// }
+// // just like Arrow functions, the variables are defined... 
+// // is not Hoisted...
+// let a = 1;
 
 
 
-//
+// Scope --> Global scope, and Local scope...
+
 
 
 
