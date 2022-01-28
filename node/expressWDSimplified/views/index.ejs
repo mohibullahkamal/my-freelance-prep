@@ -9,9 +9,7 @@
 </head>
 
 <body>
-    hello from ejs...
-    Hello <%= 2_+ 2 %>
-        <%= text %>
+    Hello <%= locals.text || 'Default' %>
 </body>
 
 </html>

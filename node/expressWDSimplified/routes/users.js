@@ -1,12 +1,12 @@
-const express = require("express")
+const express = require('express')
 const router = express.Router()
 
-app.get("/", (req, res) => {
-    res.send("User List")
+router.get("/", (req, res) => {
+    res.send("ALL User List")
 })
 
-app.get("/new", (req, res) => {
-    res.send("User New Form")
+router.get("/new", (req, res) => {
+    res.send("NEW User Form")
 })
 
 
