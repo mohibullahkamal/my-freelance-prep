@@ -133,7 +133,7 @@ function sum(a, b) {
 function sayHi(name) {
     return "Hi " + name;
 }
-cdskjfsdnfjfnkjanvfd
+
 let result = "Kyle";
 doStuff(1, 2, result);
 
@@ -165,6 +165,9 @@ doStuff(1, 2, result);
 
 
 // Scope --> Global scope, and Local scope...
+
+
+
 
 
 
