@@ -119,26 +119,26 @@
 
 
 
-// Call Stack, and Stack trace
-function doStuff(a, b, name) {
-    print(sum(a, b));
-    print(sayHi(name));
-};
-function print(variable) {
-    console.log(variable);
-}
-function sum(a, b) {
-    return a + b;
-}
-function sayHi(name) {
-    return "Hi " + name;
-}
+// // Call Stack, and Stack trace
+// function doStuff(a, b, name) {
+//     print(sum(a, b));
+//     print(sayHi(name));
+// };
+// function print(variable) {
+//     console.log(variable);
+// }
+// function sum(a, b) {
+//     return a + b;
+// }
+// function sayHi(name) {
+//     return "Hi " + name;
+// }
 
-let result = "Kyle";
-doStuff(1, 2, result);
+// let result = "Kyle";
+// doStuff(1, 2, result);
 
-// //can also write like this
-// function doDoStuff(() =>, () =>);
+// // //can also write like this
+// // function doDoStuff(() =>, () =>);
 
 
 
@@ -165,9 +165,16 @@ doStuff(1, 2, result);
 
 
 // Scope --> Global scope, and Local scope...
+function sayHi(name) {
+    let result = "Hi " + name;
+    console.log(result);
+}
+// Look at the variables names and compare with above
+let name = "Kyle";
+let result = "Kyle";
 
-
-
+sayHi(name);   // Hi Kyle
+sayHi(result);   // Hi Kyle
 
 
 
