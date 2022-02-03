@@ -166,17 +166,16 @@
 
 // Scope --> Global scope, and Local scope...
 function sayHi(name) {
-    let result = "Hi " + name;
+    let a = 2;
+    let result = "Hi " + name + a;
     console.log(result);
 }
 // Look at the variables names and compare with above
-let name = "Kyle";
-let result = "Kyle";
-
-sayHi(name);   // Hi Kyle
-sayHi(result);   // Hi Kyle
-
-
+// let result = "Kyle";
+// sayHi(result);   // Hi Kyle
+let a = 1;
+sayHi("Kyle")   // "Hi Kyle2"
+console.log(result);   // not defined in outerscope
 
 
 
