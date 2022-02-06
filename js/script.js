@@ -178,23 +178,32 @@
 // // console.log(result);   // not defined in outerscope
 
 
+// // Closures are very Important concept..
+// // Closures... almost same as Scoping...(see above) 
+// // Closures are basically functions inside functions... 
+// let a = 1;
 
-// Closures... almost same as Scoping...(see above) 
-let a = 1;
+// function printThis() {
+//     console.log(a)
+// }
+// // printThis();   // 1
+// a = 2;
+// printThis();   // 2   // this is because the latest value of a is 2
 
-function printThis() {
-    console.log(a)
+
+
+// Closures ... another example
+function print(variable) {
+    return function func(variable2) {
+        console.log(variable);
+        console.log(variable2);
+    }
 }
 
-// printThis();   // 1
-a = 2;
-printThis();   // 2   // this is because the latest value of a is 2
+let a = print(1);
 
 
 
-
-
-// ffsfsafsd
 
 
 
