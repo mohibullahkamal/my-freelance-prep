@@ -192,19 +192,42 @@
 
 
 
-// Closures ... another example
-function print(variable) {
-    return function func(variable2) {
-        console.log(variable);
-        console.log(variable2);
-    }
-}
+// // Closures ... another example
+// function print(variable) {
+//     return function func(variable2) {
+//         console.log(variable);
+//         console.log(variable2);
+//     }
+// }
 
-let a = print(1);
-
-
+// let a = print(1);
 
 
+
+// 
+
+
+
+// Type coersion...
+
+
+
+// // NaN - Not a Number..
+// const a = "1";
+// const b = "fsddjfasdf";
+// const c = 5
+
+// console.log(typeof parseInt(b));
+// console.log(parseInt(b));
+// console.log(parseInt(a) === NaN);   // Nothing is ever equal to NaN
+// console.log(isNaN(a));   // if your variable is not a number
+// console.log(isNaN(b));
+// console.log(typeof a)
+// console.log(typeof b)
+
+
+
+// Arrays
 
 
 
