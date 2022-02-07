@@ -178,6 +178,7 @@
 // // console.log(result);   // not defined in outerscope
 
 
+
 // // Closures are very Important concept..
 // // Closures... almost same as Scoping...(see above) 
 // // Closures are basically functions inside functions... 
@@ -227,8 +228,28 @@
 
 
 
-// Arrays
+// // Arrays
+// const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const b = [
+//     ["hi", "bye"],
+//     [1, 2]
+// ]
 
+// console.log(a);   // all array items
+// console.log(a[2]);   // 3 - third element in array
+
+// a.push(33);   // adds 33 at the end of list a
+// console.log(a);
+// console.log(a.length);
+
+// a.push(["hi", "bye"]);   // array inside of an array
+// console.log(a);
+
+// console.log(b[0][0]);   // hi
+
+
+
+// Object in JS...
 
 
 
