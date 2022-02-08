@@ -250,6 +250,21 @@
 
 
 // Object in JS...
+let name = "Mohib";
+const age = 30;
+const favoriteNumber = 1;
+
+let person = {}
+
+console.log(person);
+
+
+console.log('hello world... ')
+
+
+
+
+
 
 
 
