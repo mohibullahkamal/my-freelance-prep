@@ -209,6 +209,10 @@
 
 
 
+//
+
+
+
 // Type coersion...
 
 
@@ -249,20 +253,25 @@
 
 
 
-// Object in JS...
+// Object in JS... key and value pair...
 let name = "Mohib";
 const age = 30;
-const favoriteNumber = 1;
+const favoriteNumber = 3;
 
 let person = {}
-
 console.log(person);
 
+let person = {
+    name: "Mohib",
+    age: 30,
+    favoriteNumber: 3
+}   // has key value pair...
+console.log(person.name);   // Mohib
+console.log(person.age);   // 30
 
-console.log('hello world... ')
 
 
-
+// fsjfsdoj
 
 
 
