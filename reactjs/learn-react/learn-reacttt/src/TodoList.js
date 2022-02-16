@@ -3,6 +3,8 @@ import Todo from "./Todo"
 
 export default function TodoList({ todos }) {
     return (
-        <div>hello from todolist... </div>
+        todos.map(todo => {
+            return <Todo key={todo.id} todo={todo} />
+        })
     )
 }
