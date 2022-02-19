@@ -193,15 +193,15 @@
 
 
 
-// Closures ... another example
-function print(variable) {
-    return function func(variable2) {   //the parent print() function returns func()...
-        console.log(variable);
-        console.log(variable2);
-    }
-}
+// // Closures ... another example
+// function print(variable) {
+//     return function func(variable2) {   //the parent print() function returns func()...
+//         console.log(variable);
+//         console.log(variable2);
+//     }
+// }
 
-let a = print(1);   //this output us a brand new function--> func(variable2){...}
+// let a = print(1);   //this output us a brand new function--> func(variable2){...}
 // a(2)   // 1   2   //this is a hard concept and took me time to understand...
 
 
